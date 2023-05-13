@@ -5,8 +5,8 @@ const ContactInput = () => {
     return (
         <div className="flex flex-col md:flex-row justify-between items-center bg-[#F9FAFC] gap-3 p-5 w-full mx-auto">
             <div className="w-full relative md:w-3/5 mx-auto">
-                <h1 className="text-3xl md:text-7xl font-bold fw-bold capitalize" style={{ fontFamily: "Rajdhani" }}>Get in Touch with <br /> KhaDok</h1>
-                <p className="pb-4 pt-2">Consectetur numquam poro nemo veniam
+                <h1 className="text-3xl md:text-7xl text-black font-bold fw-bold capitalize" style={{ fontFamily: "Rajdhani" }}>Get in Touch with <br /> KhaDok</h1>
+                <p className="pb-4 pt-2 text-black">Consectetur numquam poro nemo veniam
                     eligendi rem adipisci quo modi.</p>
                 <div className="w-full md:w-3/6 hidden md:block mx-auto absolute top-12 -right-12 p-10 overflow-hidden">
                     <img draggable="false" style={{ animation: `bounce2 12s infinite`}} src={Envalope} alt="" className="object-cover" />
@@ -14,7 +14,7 @@ const ContactInput = () => {
             </div>
             <div className="w-full h-full md:w-2/5 mx-auto bg-white p-3">
                 <div className="p-5 w-full border-2 border-dotted">
-                    <h3 className="text-center text-2xl font-bold">Send Message</h3>
+                    <h3 className="text-center text-black text-2xl font-bold">Send Message</h3>
                     <div className="flex w-full py-7 justify-center items-center">
                         <form action="" className='w-full mx-auto space-y-7'>
                             <div className="relative bg-[#F9FAFC] w-full pt-2 z-0 mt-2">
@@ -32,7 +32,7 @@ const ContactInput = () => {
                             <p className="text-gray-500 text-center">*We promise not to disclose your <br />
                                 personal information to third parties.</p>
                             <div className="w-full flex justify-center">
-                                <button type='submit' className="flex hover:cursor-pointer gap-2 justify-center font-semibold items-center bg-[#ffbb33] py-3 px-5"><img src="https://elanta.app/nazar/starbelly-demo/img/ui/icons/arrow.svg" alt="" className="" />SEND</button>
+                                <button type='submit' className="flex text-black hover:cursor-pointer gap-2 justify-center font-semibold items-center bg-[#ffbb33] py-3 px-5"><img src="https://elanta.app/nazar/starbelly-demo/img/ui/icons/arrow.svg" alt="" className="" />SEND</button>
                             </div>
                         </form>
                     </div>
